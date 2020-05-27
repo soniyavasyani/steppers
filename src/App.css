@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+html {
+  height: 100%
+}
+#grad1 {
+  background-color:grey;
+}
+.btn{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.btn-info {
+  
+  font-size: 13px;
+  color: rgba(91, 192, 222, 0.75);
+  
+  border: 2px solid rgba(91, 192, 222, 0.75);
+  border-radius: 35px;
+  background: transparent;
+  
+}
+.btn-secondary{
+ 
+    font-size: 13px;
+    color: rgba(70, 92, 99, 0.75);
+    
+    border: 2px solid rgba(18, 28, 31, 0.75);
+    border-radius: 35px;
+    background: transparent;  
+  
+}
+.fs-title{
+  margin-top: 10%;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.welcome-form{
+  margin:40px
+}
+.title{
+  margin:30px;
+}
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+@media (min-width: 768px){
+.center-form{
+  display: flex;
+  justify-content: left;
+ 
+}
+}
