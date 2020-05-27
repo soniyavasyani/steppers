@@ -86,7 +86,7 @@ function App(){
                                                   success="right" />
                                                 <MDBInput required label="Bathroom"   type="number" max={9999999999} validate error="wrong"
                                                   success="right" />
-                                                <MDBInput required label="Bedroom" max={9999999999} type="number"  validate error="wrong" success="right" />
+                                                <MDBInput required label="Bedroom" max={99999} type="number"  validate error="wrong" success="right" />
                                                 <MDBInput required label="Description of Property"  type="textarea" rows="2" />
                                               </div>
                                               <div className="text-center">
